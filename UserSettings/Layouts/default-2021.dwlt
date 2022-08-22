@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2752
     height: 1060.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 9405
+  controlID: 87
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 8796
+  controlID: 19
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 300}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
-  controlID: 8825
+  controlID: 75
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 0
-  controlID: 8826
+  controlID: 76
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,8 +240,8 @@ MonoBehaviour:
     y: 0
     width: 298.4
     height: 649.6
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -319,8 +319,8 @@ MonoBehaviour:
     y: 0
     width: 649.6001
     height: 1010.80005
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7a42f9ff
-      m_LastClickedID: -441734
-      m_ExpandedIDs: 1289f8ff58c5f8ff083ff9ff3eb1f9ff60e1faffc8e1faffc0ebfaffa2ecfafffcecfaffa2edfaff823efbff1c6afbfff653fcff2ebcffff48cd0000
+      m_SelectedIDs: b2f5ffff
+      m_LastClickedID: -2638
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -652,9 +652,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 182.54329, y: 1.2582006, z: 54.272793}
+    m_Target: {x: 181.20607, y: 2.397826, z: 58.652897}
     speed: 2
-    m_Value: {x: 182.54329, y: 1.2582006, z: 54.272793}
+    m_Value: {x: 181.20607, y: 2.397826, z: 58.652897}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -701,9 +701,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.023264622, y: -0.8501094, z: -0.019535068, w: 0.5320442}
+    m_Target: {x: 0.1459739, y: -0.87887555, z: 0.26458257, w: 0.37811753}
     speed: 2
-    m_Value: {x: 0.023187306, y: -0.8472842, z: -0.019470148, w: 0.530276}
+    m_Value: {x: 0.14492764, y: -0.8763382, z: 0.26238266, w: 0.37707117}
   m_Size:
     m_Target: 0.6062204
     speed: 2
@@ -867,22 +867,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Packages/TerrainSampleAssets/Textures/Heightmaps
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Packages/TerrainSampleAssets/Textures/Heightmaps
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\stast\Documents\GitHub\HRR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 260.59998}
-    m_SelectedIDs: 9abc0000
-    m_LastClickedID: 48282
-    m_ExpandedIDs: 0000000002b8000088bc0000c6bc0000aec20000fec90000b4cd0000bacd00006adc00006edc0000942a0200
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: e85f0000
+    m_LastClickedID: 24552
+    m_ExpandedIDs: 00000000c45f0000c65f0000c85f0000ca5f0000cc5f0000ce5f0000d05f0000d25f0000d45f0000e85f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -910,7 +910,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000aec20000
+    m_ExpandedIDs: 00000000c45f0000c65f0000c85f0000ca5f0000cc5f0000ce5f0000d05f0000d25f0000d45f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
