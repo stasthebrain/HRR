@@ -9,6 +9,7 @@ public class Shoting : MonoBehaviour
     //public Light light;
     public float range = 20f;
     public GameObject hitEffect;
+    public ScriptableObjectLogic EHP;
 
 
     private void Update()
@@ -26,7 +27,12 @@ public class Shoting : MonoBehaviour
         if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
-            Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal)); 
+            Instantiate(hitEffect, hit.point, Quaternion.LookRotation(hit.normal));
+            EnemyLogic target = hit.transform.GetComponent<EnemyLogic>();
+            if (target != null)
+            {
+                target.Hurt(1);
+            }
         }
     }
 }
