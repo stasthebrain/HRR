@@ -1,0 +1,718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SPLIT_SPHERES
+        passType: 0
+  - first: {fileID: 105, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: FOG_EXP2
+        passType: 0
+  - first: {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+          _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+          _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+          _EMISSION _NORMALMAP _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION _NORMALMAP
+          _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHABLEND_ON
+          _EMISSION _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON
+          _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _NORMALMAP _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _ALPHABLEND_ON _EMISSION _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _EMISSION _NORMALMAP _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHABLEND_ON _EMISSION _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION _NORMALMAP _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP _SPECGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _ALPHABLEND_ON _SPECGLOSSMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHABLEND_ON _SPECGLOSSMAP
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: FOG_EXP2 POINT
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _ALPHABLEND_ON _SPECGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: FOG_EXP2 POINT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _ALPHABLEND_ON _SPECGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _NORMALMAP _SPECGLOSSMAP
+        passType: 5
+      - keywords: SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_CUBE _ALPHABLEND_ON _SPECGLOSSMAP
+        passType: 8
+      - keywords: SHADOWS_CUBE _ALPHAPREMULTIPLY_ON
+        passType: 8
+      - keywords: SHADOWS_CUBE _SPECGLOSSMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHABLEND_ON _SPECGLOSSMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH _SPECGLOSSMAP
+        passType: 8
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+          _DETAIL_MULX2 _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN VERTEXLIGHT_ON
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _DETAIL_MULX2
+          _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _DETAIL_MULX2
+          _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _DETAIL_MULX2 _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _DETAIL_MULX2 _EMISSION
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH VERTEXLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH VERTEXLIGHT_ON _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _DETAIL_MULX2 _EMISSION _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: FOG_EXP2 POINT
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: FOG_EXP2 POINT _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _DETAIL_MULX2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _NORMALMAP
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: POINT _ALPHAPREMULTIPLY_ON
+        passType: 5
+      - keywords: POINT _NORMALMAP
+        passType: 5
+      - keywords: SHADOWS_CUBE
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+        passType: 8
+      - keywords: EDITOR_VISUALIZATION
+        passType: 11
+  - first: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 211, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: FOG_EXP2 _ALPHABLEND_ON
+        passType: 0
+      - keywords: _ALPHABLEND_ON
+        passType: 0
+      - keywords: PROCEDURAL_INSTANCING_ON _ALPHABLEND_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: 10490, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10624, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON SHADOWS_SCREEN
+          _ALPHATEST_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON SHADOWS_SCREEN
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _ALPHATEST_ON
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ALPHATEST_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _ALPHATEST_ON _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _ALPHATEST_ON _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _NORMALMAP
+        passType: 5
+      - keywords: POINT _NORMALMAP
+        passType: 5
+  - first: {fileID: 10625, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 10626, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON SHADOWS_SCREEN
+          _ALPHATEST_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON SHADOWS_SCREEN
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _ALPHATEST_ON
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SCREEN _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _ALPHATEST_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL DIRLIGHTMAP_COMBINED LIGHTMAP_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _ALPHATEST_ON _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE SHADOWS_SOFT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT SHADOWS_CUBE _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _ALPHATEST_ON _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SHADOWS_DEPTH SHADOWS_SOFT SPOT _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _NORMALMAP
+        passType: 5
+      - keywords: POINT _NORMALMAP
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: SHADOWS_CUBE _NORMALMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON _NORMALMAP
+        passType: 8
+      - keywords: SHADOWS_DEPTH _NORMALMAP
+        passType: 8
+      - keywords: _ALPHATEST_ON _NORMALMAP
+        passType: 8
+      - keywords: _NORMALMAP
+        passType: 8
+      - keywords: EDITOR_VISUALIZATION _NORMALMAP
+        passType: 11
+  - first: {fileID: 18000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 00baf766089b44ee3b05e340b19c821c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          SHADOWS_SCREEN VERTEXLIGHT_ON _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          SHADOWS_SCREEN _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+          VERTEXLIGHT_ON _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH VERTEXLIGHT_ON
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LOD_FADE_PERCENTAGE _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_CROSSFADE POINT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_CROSSFADE SPOT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_PERCENTAGE POINT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_PERCENTAGE SPOT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE SHADOWS_CUBE _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+  - first: {fileID: 4800000, guid: 6ae32366f15a64fc19f245f040af8f21, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          LOD_FADE_CROSSFADE SHADOWS_SCREEN VERTEXLIGHT_ON _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          LOD_FADE_CROSSFADE SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          LOD_FADE_CROSSFADE VERTEXLIGHT_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          LOD_FADE_CROSSFADE _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          SHADOWS_SCREEN VERTEXLIGHT_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          VERTEXLIGHT_ON _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH _EMISSION
+          _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_PERCENTAGE SHADOWS_SCREEN
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_PERCENTAGE _EMISSION
+          _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL FOG_EXP2 GEOM_TYPE_LEAF _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_CROSSFADE POINT SHADOWS_CUBE SHADOWS_SOFT
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_CROSSFADE POINT _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_CROSSFADE SHADOWS_DEPTH SHADOWS_SOFT
+          SPOT _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_CROSSFADE SPOT _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF LOD_FADE_PERCENTAGE POINT SHADOWS_CUBE
+          SHADOWS_SOFT _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF POINT SHADOWS_CUBE SHADOWS_SOFT _EMISSION
+          _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF POINT SHADOWS_CUBE _EMISSION _METALLICGLOSSMAP
+          _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF POINT _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF SHADOWS_DEPTH SHADOWS_SOFT SPOT _EMISSION
+          _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: FOG_EXP2 GEOM_TYPE_LEAF SPOT _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 5
+      - keywords: GEOM_TYPE_LEAF INSTANCING_ON SHADOWS_CUBE _EMISSION _METALLICGLOSSMAP
+        passType: 8
+      - keywords: GEOM_TYPE_LEAF INSTANCING_ON SHADOWS_DEPTH _EMISSION _METALLICGLOSSMAP
+        passType: 8
+      - keywords: GEOM_TYPE_LEAF PROCEDURAL_INSTANCING_ON _EMISSION _METALLICGLOSSMAP
+        passType: 8
+  - first: {fileID: 4800000, guid: f08c3c20fcac1433a9a930a6a399d5ac, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH LOD_FADE_CROSSFADE VERTEXLIGHT_ON
+          _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH LOD_FADE_CROSSFADE _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH VERTEXLIGHT_ON _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH LOD_FADE_CROSSFADE _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 _EMISSION
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_CROSSFADE POINT _EMISSION
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_CROSSFADE SPOT _EMISSION
+        passType: 5
+      - keywords: FOG_EXP2 POINT _EMISSION
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _EMISSION
+        passType: 5
+      - keywords: LOD_FADE_CROSSFADE SHADOWS_CUBE _EMISSION
+        passType: 8
+      - keywords: LOD_FADE_CROSSFADE SHADOWS_DEPTH _EMISSION
+        passType: 8
+      - keywords: SHADOWS_CUBE _EMISSION
+        passType: 8
+      - keywords: SHADOWS_DEPTH _EMISSION
+        passType: 8
+      - keywords: _EMISSION
+        passType: 8
+  - first: {fileID: 4800000, guid: 6934a0dff195b47e5913f17edb3770ec, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          SHADOWS_SCREEN VERTEXLIGHT_ON _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          SHADOWS_SCREEN _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          VERTEXLIGHT_ON _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+          VERTEXLIGHT_ON _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH VERTEXLIGHT_ON
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 INSTANCING_ON LIGHTPROBE_SH _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL FOG_EXP2 LOD_FADE_PERCENTAGE _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_CROSSFADE POINT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 LOD_FADE_CROSSFADE SPOT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 POINT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: FOG_EXP2 SPOT _METALLICGLOSSMAP
+        passType: 5
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE SHADOWS_CUBE _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_CUBE _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: PROCEDURAL_INSTANCING_ON _METALLICGLOSSMAP
+        passType: 8
